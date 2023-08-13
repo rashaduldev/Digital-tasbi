@@ -81,3 +81,14 @@ allahuakberdecriment.addEventListener('click',function Alhamdulillahh() {
     //  console.log(alhamdullilhdisplayp);
     allahuakberdisplay.innerText=allahuakberdisplayp;
 })
+
+//  Reset part
+resetbutton.addEventListener('click',function reseet() {
+    subhanallahdisplay.innerText=0;
+    alhamdullilhdisplay.innerText=0;
+    allahuakberdisplay.innerText=0;
+
+    alhamdullilhdisplayp=0;
+    allahuakberdisplayp=0;
+    subhanallahdisplayp=0;
+})
