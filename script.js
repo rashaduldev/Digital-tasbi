@@ -6,8 +6,8 @@ const subahallahdecrement=document.getElementById('subahallahdecrement');
 
 // Alhamdulillah
 const alhamdullilhdisplay=document.getElementById('alhamdullilhdisplay');
-const Alhamdulillahincrement=document.getElementById('Alhamdulillahincrement');
-const Alhamdulillahdecriment=document.getElementById('Alhamdulillahdecriment');
+const alhamdulillahincrement=document.getElementById('alhamdulillahincrement');
+const alhamdulillahdecriment=document.getElementById('alhamdulillahdecriment');
 
 // AllahHuAkber
 const allahuakberdisplay=document.getElementById('allahuakberdisplay');
@@ -43,39 +43,41 @@ subahallahdecrement.addEventListener('click',function nam() {
 
 // Alhamdulillah part start
 // increment
-Alhamdulillahincrement.addEventListener('click',function nam() {
+alhamdulillahincrement.addEventListener('click',function Alhamdulillah() {
     if (alhamdullilhdisplayp==33) {
-        return alert('Please filup another');
+        return alert('Please increment this');
     }
     alhamdullilhdisplayp+=1;
+    // console.log(alhamdullilhdisplayp);
     alhamdullilhdisplay.innerText=alhamdullilhdisplayp;
 })
 // dicrement button
-Alhamdulillahincrement.addEventListener('click',function nam() {
+alhamdulillahdecriment.addEventListener('click',function Alhamdulillahh() {
     if (alhamdullilhdisplayp==0) {
         return alert('Please increment this');
     }
     alhamdullilhdisplayp-=1;
-    alhamdullilhdisplay.innerText=alhamdullilhdisplayp;
+    //  console.log(alhamdullilhdisplayp);
+     alhamdullilhdisplay.innerText=alhamdullilhdisplayp;
 })
 // Alhamdulillah part end
 
-
-// Alhamdulillah part start
+// Allhuakber part start
 // increment
-subahallahincrement.addEventListener('click',function nam() {
-    if (subhanallahdisplayp==33) {
-        return alert('Please filup another');
-    }
-    subhanallahdisplayp+=1;
-    subhanallahdisplay.innerText=subhanallahdisplayp;
-})
-// dicrement button
-subahallahdecrement.addEventListener('click',function nam() {
-    if (subhanallahdisplayp==0) {
+allahuakberincrement.addEventListener('click',function Alhamdulillah() {
+    if (allahuakberdisplayp==33) {
         return alert('Please increment this');
     }
-    subhanallahdisplayp-=1;
-    subhanallahdisplay.innerText=subhanallahdisplayp;
+    allahuakberdisplayp+=1;
+    // console.log(alhamdullilhdisplayp);
+    allahuakberdisplay.innerText=allahuakberdisplayp;
 })
-// Alhamdulillah part end
+// dicrement button
+allahuakberdecriment.addEventListener('click',function Alhamdulillahh() {
+    if (allahuakberdisplayp==0) {
+        return alert('Please increment this');
+    }
+    allahuakberdisplayp-=1;
+    //  console.log(alhamdullilhdisplayp);
+    allahuakberdisplay.innerText=allahuakberdisplayp;
+})
