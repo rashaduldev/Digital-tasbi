@@ -22,8 +22,8 @@ let subhanallahdisplayp=0;
 let alhamdullilhdisplayp=0;
 let allahuakberdisplayp=0;
 
-
-
+// SubahnAllah part start
+// increment
 subahallahincrement.addEventListener('click',function nam() {
     if (subhanallahdisplayp==33) {
         return alert('Please filup another');
@@ -39,3 +39,43 @@ subahallahdecrement.addEventListener('click',function nam() {
     subhanallahdisplayp-=1;
     subhanallahdisplay.innerText=subhanallahdisplayp;
 })
+// SubahnAllah part end
+
+// Alhamdulillah part start
+// increment
+Alhamdulillahincrement.addEventListener('click',function nam() {
+    if (alhamdullilhdisplayp==33) {
+        return alert('Please filup another');
+    }
+    alhamdullilhdisplayp+=1;
+    alhamdullilhdisplay.innerText=alhamdullilhdisplayp;
+})
+// dicrement button
+Alhamdulillahincrement.addEventListener('click',function nam() {
+    if (alhamdullilhdisplayp==0) {
+        return alert('Please increment this');
+    }
+    alhamdullilhdisplayp-=1;
+    alhamdullilhdisplay.innerText=alhamdullilhdisplayp;
+})
+// Alhamdulillah part end
+
+
+// Alhamdulillah part start
+// increment
+subahallahincrement.addEventListener('click',function nam() {
+    if (subhanallahdisplayp==33) {
+        return alert('Please filup another');
+    }
+    subhanallahdisplayp+=1;
+    subhanallahdisplay.innerText=subhanallahdisplayp;
+})
+// dicrement button
+subahallahdecrement.addEventListener('click',function nam() {
+    if (subhanallahdisplayp==0) {
+        return alert('Please increment this');
+    }
+    subhanallahdisplayp-=1;
+    subhanallahdisplay.innerText=subhanallahdisplayp;
+})
+// Alhamdulillah part end
