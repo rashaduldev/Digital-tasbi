@@ -4,5 +4,5 @@ const commentText=document.getElementById('commentText');
 
 btnclick.addEventListener('click',function comment() {
     console.log('button is clicked');
-    
+    const 
 })
