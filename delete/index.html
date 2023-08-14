@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Del</title>
+</head>
+<body>
+    <div>
+        <input id="inpo" type="text" placeholder="Input">
+        <br>
+        <button id="btndel" disabled>Delete</button>
+    </div>
+</body>
+
+<script>
+    const inpo=document.getElementById('inpo').addEventListener('keyup',function (event) {
+        const text=event.target.value;
+        console.log(text);
+        const btn=document.getElementById('btndel');
+        if (text=='delete') {
+            btn.removeAttribute('disabled');
+        }
+        else{
+            btn.setAttribute('disabled', true);
+        }
+    })
+</script>
+</html>
